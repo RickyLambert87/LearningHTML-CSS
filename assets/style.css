@@ -12,6 +12,9 @@ body {
 }
 
 /* headings and logo */
+#heart {
+    color: red;
+}
 
 h1,
 h2 {
