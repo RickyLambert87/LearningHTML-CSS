@@ -1,7 +1,6 @@
 # LearningHTML-CSS
 Just getting a grasp of how it all works
-# LearningHTML-CSS
-Just getting a grasp of how it all works
+
 # Living Life On The Veg - Alkaline and Vegan Website
 
 Welcome to Living Life On The Veg, an alkaline and vegan website dedicated to promoting a plant-based lifestyle and raising awareness about the benefits of alkaline foods. Our website provides a wealth of resources, informative articles, delicious recipes, and a supportive community for individuals interested in embracing veganism and alkaline-based diets.
