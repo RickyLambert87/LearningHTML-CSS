@@ -93,6 +93,8 @@ color: white;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .video-container iframe {
