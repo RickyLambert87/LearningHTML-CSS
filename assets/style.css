@@ -207,13 +207,3 @@ footer {
     color: #f16c6b;
 }
 
-/* Media queries */
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-   
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    
