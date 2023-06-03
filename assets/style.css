@@ -19,12 +19,15 @@ color: white;
   .navbar {
     border-radius: 0;
   }
-
+a .navbar-brand {
+    float: right;
+}
 .navbar-brand {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
-    text-align: start;
+    text-align:start;
+
     
   }
 
@@ -209,3 +212,22 @@ footer {
     color: #f16c6b;
 }
 
+/* Mobile styles */
+
+@media (max-width: 653px) {
+    .form-section {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .text-input {
+      margin-right: 0;
+    }
+  
+    .join-button {
+      margin-top: 10px;
+    }
+  }
+  .signup-form {
+    max-width: 75%;
+  }
