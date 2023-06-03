@@ -19,8 +19,10 @@ color: white;
   .navbar {
     border-radius: 0;
   }
-a .navbar-brand {
-    float: right;
+a .navbar-brand:hover {
+
+    background-color: #fafafa;
+    
 }
 .navbar-brand {
     font-size: 24px;
@@ -189,7 +191,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #0f0f0f;
 
 }
 
@@ -202,14 +204,14 @@ footer {
     padding-left: 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #585656;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #080808;
 }
 
 /* Mobile styles */
