@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-#heart {
-    color: red;
-}
+.logo-text {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #eff8ef; 
+
+    
+  }
+  
+  #heart {
+    color: #ff4081; 
+    font-size: 60px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
 
 body {
     background-color: #bcbec0;
-  }
+}
 
   header,
   .footer {
