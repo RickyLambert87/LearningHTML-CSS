@@ -9,7 +9,7 @@ Welcome to Living Life On The Veg, an alkaline and vegan website dedicated to pr
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## About
 
