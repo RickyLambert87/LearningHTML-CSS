@@ -1,10 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+.didyouknowpage {
+  position: relative;
+}
 
+.didyouknowpage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background-image: url("images/herblogo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center bottom 70%;
+}
+
+.aboutuspage {
+  position: relative;
+}
+
+.aboutuspage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background-image: url("images/herblogo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center bottom 70%;
+}
+.homepage {
+  position: relative;
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background-image: url("images/herblogo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center bottom 85%;
+}
 .logo-text {
+  
     font-family: Arial, sans-serif;
     font-size: 48px;
     font-weight: bold;
-    color: #eff8ef; 
+    color: #fefffe; 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
 
     
   }
@@ -17,12 +76,12 @@
   }
 
 body {
-    background-color: #bcbec0;
+    background-color: #f8f9fa;
 }
 
   header,
   .footer {
-    background-color: #343a40;
+    background-color: #878f99;
     color: #fff;
   }
 .nav-link {
@@ -172,18 +231,37 @@ footer {
 .form-section {
     clear: left;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom 50px;
     height: 900px;
 }
+.signuppage{
+  position: relative;
+}
 
+.signuppage::before {
+  content: "images/plantheart.jpg";
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background-image: url("images/plantheart.jpg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center bottom 100px;
+}
 .signup-form {
-    margin-top: 150px;
+    margin-top: 140px;
+    margin-left: 720px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #878f99;
     width: 400px;
-    position: absolute;
-    left: 10%;
+    position: center 50%;
+    left: 50%;
     padding: 30px;
+    
 }
 
 .signup-form h2 {
@@ -227,6 +305,10 @@ footer {
 }
 
 /* Mobile styles */
+@media (max-width: 653px) {
+  
+}
+
 
 @media (max-width: 653px) {
     .form-section {
@@ -241,7 +323,43 @@ footer {
     .join-button {
       margin-top: 10px;
     }
-  }
+  
   .signup-form {
-    max-width: 75%;
+    margin-top: 50px; /* Reduce the margin-top value to bring it closer to the top */
+    color: #fff;
+    background-color: rgba(5, 39, 2, 0.219);
+    width: 90%; /* Use percentage-based width for responsiveness */
+    max-width: 400px; /* Set a maximum width to limit its size */
+    margin-left: auto; /* Center the form horizontally */
+    margin-right: auto;
+    padding: 30px;
   }
+  .signuppage::before {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom 150px;
+    opacity: 0.2;
+  }
+  .homepage::before {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom 700px;
+    opacity: 0.2;
+  }
+  .didyouknowpage::before {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom 700px;
+    opacity: 0.2;
+  }
+  .aboutuspage::before {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom 700px;
+    opacity: 0.2;
+  }
+}
