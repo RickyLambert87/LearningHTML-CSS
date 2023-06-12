@@ -17,11 +17,11 @@ Living Life On The Veg is a platform created to inspire and support individuals 
 
 ## Features
 
-- **Introduction to Veganism:** Explore the principles and benefits of veganism. Learn about the impact of your food choices on animal welfare, the environment, and your health. Discover compelling reasons to embrace a plant-based lifestyle and find resources to support your transition.
+- **Introduction to Plant Based Diets:** Explore the principles and benefits of plant based food. Learn about the impact of your food choices on animal welfare, the environment, and your health. Discover compelling reasons to embrace a plant-based lifestyle and find resources to support your transition.
 
 - **Alkaline-Based Diets:** Dive into the world of alkaline-based diets and their potential health benefits. Understand the concept of pH balance, explore alkaline-rich foods, and find delicious recipes that promote optimal health and vitality. Learn how to nourish your body with alkaline foods and create balanced meals.
 
-- **Informative Articles:** Access our collection of informative articles covering a wide range of topics related to veganism, alkaline-based diets, nutrition, wellness, sustainability, and more. Stay informed and discover practical tips and insights to enhance your understanding and journey.
+- **Informative Articles:** Access our collection of informative articles covering a wide range of topics related to plants, herbs, alkaline-based diets, nutrition, wellness, sustainability, and more. Stay informed and discover practical tips and insights to enhance your understanding and journey.
 
 ## Getting Started
 
@@ -30,3 +30,18 @@ To explore Living Life On The Veg and access our resources, simply visit our web
 ## Contributing
 
 We believe in the power of collaboration and welcome contributions from individuals who share our passion for veganism and alkaline-based diets. If you're interested in contributing articles, recipes, or any other valuable content to our website, please reach out to us via (rickylambert87@mail.com). I'd love to hear from you!
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+</p>
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!">
+    </a>
+</p>
