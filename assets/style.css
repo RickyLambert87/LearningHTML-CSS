@@ -9,7 +9,7 @@
 }
   .fa-lemon {
 font-size: 36px;
-color: yellow;
+color: #dfd920;
   }
 .fa-leaf {
   color: #405d27;
@@ -62,7 +62,7 @@ body {
 
 .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 20px;
   padding-right: 20px;
 }
@@ -122,11 +122,11 @@ body {
 
 /* Did You Know Page */
 
-.didyouknowpage {
+.did-you-know-page {
   position: relative;
 }
 
-.didyouknowpage::before {
+.did-you-know-page::before {
   content: "";
   position: absolute;
   top: 0;
@@ -143,11 +143,11 @@ body {
 
 /* About Us Page */
 
-.aboutuspage {
+.about-us-page {
   position: relative;
 }
 
-.aboutuspage::before {
+.about-us-page::before {
   content: "";
   position: absolute;
   top: 0;
@@ -174,20 +174,20 @@ body {
 }
 
 .welcome-section h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .welcome-section h3 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .welcome-section p {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -199,20 +199,20 @@ body {
 }
 
 .about-us-section h2 {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .about-us-section h3 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .about-us-section p {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -232,7 +232,7 @@ body {
 
 h2.section-heading {
   text-align: center;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
   margin-bottom: 10px;
   text-decoration: underline;
@@ -240,18 +240,18 @@ h2.section-heading {
 
 /* Facts List */
 
-ol.factsList {
+ol.facts-list {
   margin-left: 20px;
   padding: 20px;
   list-style-type: decimal;
 }
 
-.factsList li {
+.facts-list li {
   padding: 10px;
   margin-left: 15px;
   margin-right: 200px;
   margin-bottom: 15px;
-  font-size: 26px;
+  font-size: 18px;
 }
 
 /* List Marker */
@@ -260,7 +260,7 @@ li::marker {
   padding-left: 10px;
   margin-left: 10px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 16px;
 }
 
 /* Video Container */
@@ -301,7 +301,7 @@ li::marker {
 }
 
 .footer .social-networks a {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 footer {
@@ -334,11 +334,11 @@ footer {
   height: 900px;
 }
 
-.signuppage {
+.sign-up-page {
   position: relative;
 }
 
-.signuppage::before {
+.sign-up-page::before {
   content: "";
   position: absolute;
   top: 0;
@@ -355,7 +355,7 @@ footer {
   opacity: 0.2;
 }
 
-.signup-form {
+.sign-up-form {
   margin-top: 100px;
   color: #fff;
   background-color: #405d27;
@@ -367,7 +367,7 @@ footer {
   opacity: 0.5;
 }
 
-.signup-form h2 {
+.sign-up-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
 }
@@ -409,10 +409,10 @@ footer {
 /* Responsive adjustments */
 
 
-@media (max-width: 1290px) {
+@media (max-width: 1400px) {
   .logo-text {
     font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     color: #fefffe;
     text-align: center;
@@ -452,21 +452,88 @@ footer {
     text-decoration: underline;
     font-size: 15px;
   }
+ 
+  h2.section-heading {
+    font-size: 22px;
+  }
+  .about-us-section {
+    padding: 20px;
+  }
   
-  /* Facts List */
+  .about-us-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section ul {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  } 
+  .about-us-section li::marker {
+    font-size: 14px;
+  }
+  .fa-lemon {
+    font-size: 18px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
 
-ol.factsList {
+  .welcome-section {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-section p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
+ol.facts-list {
   margin-left: 20px;
   padding: 20px;
   list-style-type: decimal;
+  font-size: 14px;
 }
 
-.factsList li {
+.facts-list li {
   padding: 10px;
   margin-left: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
-  font-size: 26px;
+  font-size: 18px;
 }
 
   .form-section {
@@ -482,7 +549,7 @@ ol.factsList {
     margin-top: 10px;
   }
 
-  .signup-form {
+  .sign-up-form {
     margin-top: 100px;
     color: #fff;
     background-color: #405d27;
@@ -494,151 +561,17 @@ ol.factsList {
     opacity: 0.5;
   }
 
-  .signuppage::before {
+  .sign-up-page::before {
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom 150px;
     opacity: 0.2;
   }
-  .welcome-section {
-    padding: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 50px;
-  }
   
-  .welcome-section h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .welcome-section h3 {
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .welcome-section p {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
 
-  .homepage::before {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom 700px;
-    opacity: 0.2;
-  }
+}
 
-  .didyouknowpage::before {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom 700px;
-    opacity: 0.2;
-  }
-
-  .aboutuspage::before {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom 85%;
-    opacity: 0.2;
-  }
-}
-@media (max-width: 1096px) {
-  .logo-text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fefffe;
-    text-align: center;
-    justify-content: center;
-    
-  }
-  .fa-carrot {
-    
-    font-size: 15px;
-    padding: 10px;
-    justify-content: center;
-  }
-  .container-fluid {
-    background-color: #405d27;
-    
-  }
-  
-  .navbar {
-    border-radius: 0;
-    padding: 0;
-  }
-  
-  .navbar-brand {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .nav-link {
-    color: white;
-    font-size: 20px;
-    
-  }
-  
-  .dropdown-item {
-    text-decoration: underline;
-    font-size: 15px;
-  }
-}
-@media (max-width: 974px) {
-  .logo-text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: #fefffe;
-    text-align: center;
-    justify-content: center;
-    margin-left: 10px;
-    
-  }
-  .fa-carrot {
-    
-    font-size: 24px;
-    padding: 10px;
-    justify-content: center;
-  }
-  .container-fluid {
-    background-color: #405d27;
-    
-  }
-  
-  .navbar {
-    border-radius: 0;
-    padding: 0;
-  }
-  
-  .navbar-brand {
-    font-size: 15px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .nav-link {
-    color: white;
-    font-size: 15px;
-    margin-right: 20px;
-    padding-right: 20px;
-  }
-  
-  .dropdown-item {
-    text-decoration: underline;
-    font-size: 15px;
-  }
-}
   @media (max-width: 868px) {
     .welcome-section {
       padding: 20px;
@@ -648,61 +581,38 @@ ol.factsList {
     }
     
     .welcome-section h2 {
-      font-size: 48px;
+      font-size: 28px;
       font-weight: bold;
       margin-bottom: 10px;
     }
     
     .welcome-section h3 {
-      font-size: 35px;
+      font-size: 26px;
       font-weight: bold;
       margin-top: 30px;
       margin-bottom: 10px;
     }
     
     .welcome-section p {
-      font-size: 26px;
+      font-size: 22px;
       line-height: 1.5;
       margin-bottom: 20px;
     }
   
-.homepage::before {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: center bottom 85%;
-  opacity: 0.4;
-}
-
-.didyouknowpage::before {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: center bottom 85%;
-  opacity: 0.4;
-}
-
-.aboutuspage::before {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: center bottom 85%;
-  opacity: 0.4;
-}
   }
-  @media (max-width: 462px) {
+  @media (max-width: 502px) {
     .header {
       height: 90px;
     }
     .fa-carrot {
     
-      font-size: 18px;
+      font-size: 14px;
       padding: 5px;
       justify-content: center;
       margin: 0;
     }
     .logo-text {
-      font-size: 18px;
+      font-size: 16px;
     }
     .navbar {
       margin: 0;
@@ -711,15 +621,13 @@ ol.factsList {
     .navbar-toggler-icon {
       position: relative;
     }
-    .factsList li {
+    .facts-list li {
       font-size: 18px;
     }
-    .factsList li::marker {
+    .facts-list li::marker {
       font-size: 14px;
     }
-    h2.section-heading {
-      font-size: 26px;
-    }
+    
     .about-us-section {
       padding: 20px;
     }
@@ -782,5 +690,11 @@ ol.factsList {
       font-size: 16px;
       line-height: 1.5;
       margin-bottom: 20px;
+    }
+    h2.section-heading {
+      font-size: 18px;
+    }
+    .facts-list li {
+      font-size: 16px
     }
   }
