@@ -337,22 +337,19 @@ footer {
 .sign-up-page {
   position: relative;
 }
-
-.sign-up-page::before {
+.form-section::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.2;
-  z-index: -1;
   background-image: url("images/plantheart.jpg");
-  margin-top: 100px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom 150px;
+background-repeat: no-repeat;
+  
+  background-position: center top;
   opacity: 0.2;
+  margin-top: 100px;
 }
 
 .sign-up-form {
@@ -558,17 +555,9 @@ ol.facts-list {
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    opacity: 0.5;
+    
   }
 
-  .sign-up-page::before {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom 150px;
-    opacity: 0.2;
-  }
-  
 
 }
 

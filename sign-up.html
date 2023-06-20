@@ -44,8 +44,6 @@
       </div>
     </nav>
     </header>
-    
-          </section>
     <section class="form-section">
       <form method="POST" action="#" class="sign-up-form" onsubmit="showSuccessMessage(event)">
         <i class="fa-solid fa-pepper-hot" style="color: #ff0000;"></i>
@@ -67,11 +65,10 @@
             Thank you for signing up! You will receive weekly updates, recipes or both!.
         </div>
     </form>
-    
+    </section>
     <script>
         function showSuccessMessage(event) {
             event.preventDefault(); // Prevent form submission
-    
             // Display the success message
             var successMessage = document.getElementById("success-message");
             successMessage.style.display = "block";
